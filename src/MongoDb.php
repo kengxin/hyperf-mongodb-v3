@@ -4,7 +4,7 @@ namespace GiocoPlus\Mongodb;
 
 use GiocoPlus\Mongodb\Exception\MongoDBException;
 use GiocoPlus\Mongodb\Pool\PoolFactory;
-use Hyperf\Utils\Context;
+use Hyperf\Context\Context;
 
 /**
  * Class MongoDb
