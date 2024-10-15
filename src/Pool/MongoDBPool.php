@@ -6,7 +6,7 @@ use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\ConnectionInterface;
 use GiocoPlus\Mongodb\MongoDbConnection;
 use Hyperf\Pool\Pool;
-use Hyperf\Utils\Arr;
+use Hyperf\Collection\Arr;
 use Psr\Container\ContainerInterface;
 
 class MongoDBPool extends Pool
